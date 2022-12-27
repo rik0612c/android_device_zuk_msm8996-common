@@ -155,6 +155,9 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8996
 # Only needed for signing
 BOARD_AVB_ENABLE := false
 
+# Verified Boot
+BOARD_AVB_ENABLE := false
+
 # Wifi
 BOARD_WLAN_DEVICE := qcwcn
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
