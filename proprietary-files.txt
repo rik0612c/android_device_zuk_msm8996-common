@@ -611,7 +611,6 @@ etc/permissions/qti_libpermissions.xml:vendor/etc/permissions/qti_libpermissions
 # RIL
 app/QtiTelephonyService/QtiTelephonyService.apk:system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 etc/permissions/qcrilhook.xml:system_ext/etc/permissions/qcrilhook.xml
-etc/permissions/telephonyservice.xml:system_ext/etc/permissions/telephonyservice.xml
 framework/qcrilhook.jar:system_ext/framework/qcrilhook.jar
 priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/ATFWD-daemon
@@ -644,7 +643,6 @@ vendor/lib/libmdmdetect.so
 vendor/radio/qcril_database/qcril.db
 
 # RIL - from daisy - 9/PKQ1.180917.001/V10.0.7.0.PDLMIXM
-framework/QtiTelephonyServicelibrary.jar:system_ext/framework/QtiTelephonyServicelibrary.jar|7e6810bf7747778dc8b88da8e4357531ba9ed815
 framework/qti-telephony-common.jar:system_ext/framework/qti-telephony-common.jar|af9952a5be5017848eb8b59c62c4ea318e9472f5
 vendor/bin/rmt_storage|346ef281e829109ba11af912509309e520351ef9
 vendor/bin/tftp_server|05a9c0e0e691e534e703bded4a99083d25a26ebb
