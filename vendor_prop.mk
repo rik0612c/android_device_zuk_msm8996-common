@@ -4,7 +4,8 @@
 
 # Adreno
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+    ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0 \
+    ro.hardware.egl=adreno
 
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
